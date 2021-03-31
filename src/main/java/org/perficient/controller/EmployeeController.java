@@ -17,13 +17,14 @@ public class EmployeeController {
     @Autowired
     private EmployeeService employeeService;
 
-    @PostMapping
+    @PostMapping("create")
     public ResponseEntity<String> saveEmployee(@RequestBody Employee employee) throws URISyntaxException {
-            Employee savedEmployee = employeeService.save(employee);
-            return ResponseEntity.created(new URI("/employee/" + savedEmployee.getId())).build();
+        Employee savedEmployee = employeeService.save(employee);
+            //return ResponseEntity.created(new URI("/employee/" + savedEmployee.getId())).build();
+        return ResponseEntity.ok(savedEmployee.getId().toString());
     }
 
-    @GetMapping
+    @GetMapping("allemployees")
     public ResponseEntity<List<Employee>> getAllEmployees() {
         List<Employee> allEmployees = employeeService.getAll();
         return ResponseEntity.ok(allEmployees);
@@ -38,7 +39,7 @@ public class EmployeeController {
         return ResponseEntity.ok(employee);
     }
 
-    @PutMapping
+    @PutMapping("update")
     public ResponseEntity<String> updateEmployee(@RequestBody Employee updatedEmployee) {
         Employee employee = employeeService.update(updatedEmployee);
         if(employee == null) {
@@ -47,7 +48,7 @@ public class EmployeeController {
         return ResponseEntity.accepted().body("Successfully updated!");
     }
 
-    @DeleteMapping("/{employeeId}")
+    @DeleteMapping("delete/{employeeId}")
     public ResponseEntity<Void> deleteEmployee(@PathVariable Integer employeeId) {
         employeeService.delete(employeeId);
         return ResponseEntity.noContent().build();

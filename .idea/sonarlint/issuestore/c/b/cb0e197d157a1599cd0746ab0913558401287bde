@@ -1,0 +1,44 @@
+
+_
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(á´Êøÿÿÿÿ
+W
+java:S11064"AMove this left curly brace to the beginning of next line of code.(ì¾Ğ¿
+\
+java:S1106"AMove this left curly brace to the beginning of next line of code.(¼¯Å“ùÿÿÿÿ
+\
+java:S1106"AMove this left curly brace to the beginning of next line of code.(›É€ûÿÿÿÿ
+b
+java:S4684"@Replace this persistent entity with a simple POJO or DTO object.(›É€ûÿÿÿÿ8ßà¤¨ˆ/
+_
+java:S11205"DMake this line start after 4 spaces to indent the code consistently.(É¹“Ñùÿÿÿÿ
+W
+java:S1106""AMove this left curly brace to the beginning of next line of code.(ÃÀ¿ğ
+\
+java:S1106+"AMove this left curly brace to the beginning of next line of code.(ìï®Ãıÿÿÿÿ
+\
+java:S1106$"AMove this left curly brace to the beginning of next line of code.(°í…ÿÿÿÿÿ
+_
+java:S1120,"DMake this line start after 4 spaces to indent the code consistently.(É°ß¹øÿÿÿÿ
+Z
+java:S1120"DMake this line start after 2 spaces to indent the code consistently.(ŞÈ
+Z
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(á¦ô°
+X	java:S125"<This block of commented-out lines of code should be removed.(¯˜Ìá8Å€ã­ˆ/
+Z
+java:S1120."DMake this line start after 6 spaces to indent the code consistently.(æ˜È¦
+Ò
+java:S4605"»'EmployeeController' is not reachable by @ComponentsScan or @SpringBootApplication. Either move it to a package configured in @ComponentsScan or update your @ComponentsScan configuration.(ÈÅğª
+W
+java:S1106"AMove this left curly brace to the beginning of next line of code.(ÈÅğª
+_
+java:S1120%"DMake this line start after 6 spaces to indent the code consistently.(Ğùæıÿÿÿÿ
+D
+java:S2208".Explicitly import the specific classes needed.(Ñ»ïÒ
+–
+java:S1130"tRemove the declaration of thrown exception 'java.net.URISyntaxException', as it cannot be thrown from method's body.(›É€ûÿÿÿÿ8Å€ã­ˆ/
+b
+java:S4684+"@Replace this persistent entity with a simple POJO or DTO object.(ìï®Ãıÿÿÿÿ8ßà¤¨ˆ/
+Z
+java:S1120#"DMake this line start after 4 spaces to indent the code consistently.(°Ä…
+\
+java:S1106-"AMove this left curly brace to the beginning of next line of code.(°í…ÿÿÿÿÿ
