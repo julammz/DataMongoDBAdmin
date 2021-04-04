@@ -16,9 +16,6 @@ public class MongoDBConfig implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        /*employeeService.save(new Employee(1, "Bobby", "Java Developer", 80000));
-        employeeService.save(new Employee(2, "Sam", "Dev Ops", 120000));
-        employeeService.save(new Employee(3, "Hank", "Human Resources", 65000));*/
     }
 }
 

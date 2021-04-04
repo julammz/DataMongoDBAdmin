@@ -20,7 +20,6 @@ public class EmployeeController {
     @PostMapping("create")
     public ResponseEntity<String> saveEmployee(@RequestBody Employee employee) throws URISyntaxException {
         Employee savedEmployee = employeeService.save(employee);
-            //return ResponseEntity.created(new URI("/employee/" + savedEmployee.getId())).build();
         return ResponseEntity.ok(savedEmployee.getId().toString());
     }
 
